@@ -31,7 +31,7 @@ function reverseString(str) {
 function factorialise(num) {
  var factorial =1;
  for(var i=1; i<=num; i++){
- 	factorial *= num;
+ 	factorial *= i;
  	return factorial;
  }
 }
